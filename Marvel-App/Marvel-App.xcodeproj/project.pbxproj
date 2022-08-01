@@ -26,6 +26,7 @@
 		DDFC207828982EA100E56CA0 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFC206B28982EA100E56CA0 /* Roboto-Black.ttf */; };
 		DDFC207C28982F0F00E56CA0 /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC207B28982F0F00E56CA0 /* TextModifier.swift */; };
 		DDFC207E28982F2600E56CA0 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC207D28982F2600E56CA0 /* Font+Extension.swift */; };
+		DDFC20802898419E00E56CA0 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC207F2898419E00E56CA0 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		DDFC206B28982EA100E56CA0 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		DDFC207B28982F0F00E56CA0 /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
 		DDFC207D28982F2600E56CA0 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		DDFC207F2898419E00E56CA0 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				DDFC207D28982F2600E56CA0 /* Font+Extension.swift */,
+				DDFC207F2898419E00E56CA0 /* Color+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFC204D2898240B00E56CA0 /* ContentView.swift in Sources */,
+				DDFC20802898419E00E56CA0 /* Color+Extension.swift in Sources */,
 				DDFC204B2898240B00E56CA0 /* Marvel_AppApp.swift in Sources */,
 				DDFC207E28982F2600E56CA0 /* Font+Extension.swift in Sources */,
 				DDFC207C28982F0F00E56CA0 /* TextModifier.swift in Sources */,
