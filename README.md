@@ -1,8 +1,12 @@
  ## Marvel App 
 
-i'm going to show how to create a App in which we can search All Marvel Characters and Comics With Marvel API Using SwiftUI 
+i'm going to show how to create a App in which we can search all Marvel characters and comics With **Marvel API** using *SwiftUI*
 
 #### Keywords
--MVVM
-**viewWillAppear** or
-#### Keywords
+- MVVM
+- JSON Parsing 
+- Pagination
+- Infinity ScrollView 
+- Search Bar With Combine Framework 
+
+
