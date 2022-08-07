@@ -34,3 +34,4 @@ extension Font {
     
     static let infoUI           = appUIFont(size: 12, type: "Gilroy-Medium")
 }
+

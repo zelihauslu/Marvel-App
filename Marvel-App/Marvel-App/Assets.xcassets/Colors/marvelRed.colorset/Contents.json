@@ -5,6 +5,11 @@
         "platform" : "universal",
         "reference" : "systemRedColor"
       },
+      "display-gamut" : "sRGB",
+      "idiom" : "universal"
+    },
+    {
+      "display-gamut" : "display-P3",
       "idiom" : "universal"
     }
   ],

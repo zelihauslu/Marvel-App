@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD5DB5D0289F9F1B005ED83A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DB5CF289F9F1B005ED83A /* TabBar.swift */; };
+		DD5DB5D5289F9F95005ED83A /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DB5D4289F9F95005ED83A /* Characters.swift */; };
+		DD5DB5D7289F9F9D005ED83A /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DB5D6289F9F9D005ED83A /* Comics.swift */; };
+		DD5DB5DA289FA2D6005ED83A /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5DB5D9289FA2D6005ED83A /* Onboarding.swift */; };
 		DDFC204B2898240B00E56CA0 /* Marvel_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC204A2898240B00E56CA0 /* Marvel_AppApp.swift */; };
 		DDFC204D2898240B00E56CA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFC204C2898240B00E56CA0 /* ContentView.swift */; };
 		DDFC204F2898240D00E56CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFC204E2898240D00E56CA0 /* Assets.xcassets */; };
@@ -30,6 +34,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD5DB5CF289F9F1B005ED83A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		DD5DB5D4289F9F95005ED83A /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		DD5DB5D6289F9F9D005ED83A /* Comics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comics.swift; sourceTree = "<group>"; };
+		DD5DB5D9289FA2D6005ED83A /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		DD5DB5DB289FB405005ED83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DDFC20472898240B00E56CA0 /* Marvel-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marvel-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFC204A2898240B00E56CA0 /* Marvel_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marvel_AppApp.swift; sourceTree = "<group>"; };
 		DDFC204C2898240B00E56CA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +73,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD5DB5D1289F9F1E005ED83A /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DD5DB5CF289F9F1B005ED83A /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		DD5DB5D2289F9F63005ED83A /* Comics */ = {
+			isa = PBXGroup;
+			children = (
+				DD5DB5D6289F9F9D005ED83A /* Comics.swift */,
+			);
+			path = Comics;
+			sourceTree = "<group>";
+		};
+		DD5DB5D3289F9F6A005ED83A /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				DD5DB5D4289F9F95005ED83A /* Characters.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		DD5DB5D8289FA2B8005ED83A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DD5DB5D9289FA2D6005ED83A /* Onboarding.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		DDFC203E2898240B00E56CA0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,7 @@
 		DDFC20492898240B00E56CA0 /* Marvel-App */ = {
 			isa = PBXGroup;
 			children = (
+				DD5DB5DB289FB405005ED83A /* Info.plist */,
 				DDFC207A28982EE900E56CA0 /* Extensions */,
 				DDFC207928982EE200E56CA0 /* Modifiers */,
 				DDFC205E28982EA100E56CA0 /* Roboto */,
@@ -108,6 +150,10 @@
 		DDFC205A28982AC700E56CA0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DD5DB5D8289FA2B8005ED83A /* Onboarding */,
+				DD5DB5D3289F9F6A005ED83A /* Characters */,
+				DD5DB5D2289F9F63005ED83A /* Comics */,
+				DD5DB5D1289F9F1E005ED83A /* TabBar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -246,9 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5DB5DA289FA2D6005ED83A /* Onboarding.swift in Sources */,
 				DDFC204D2898240B00E56CA0 /* ContentView.swift in Sources */,
+				DD5DB5D5289F9F95005ED83A /* Characters.swift in Sources */,
 				DDFC20802898419E00E56CA0 /* Color+Extension.swift in Sources */,
 				DDFC204B2898240B00E56CA0 /* Marvel_AppApp.swift in Sources */,
+				DD5DB5D0289F9F1B005ED83A /* TabBar.swift in Sources */,
+				DD5DB5D7289F9F9D005ED83A /* Comics.swift in Sources */,
 				DDFC207E28982F2600E56CA0 /* Font+Extension.swift in Sources */,
 				DDFC207C28982F0F00E56CA0 /* TextModifier.swift in Sources */,
 			);
@@ -382,6 +432,7 @@
 				DEVELOPMENT_TEAM = 23U86K98CU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Marvel-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -411,6 +462,7 @@
 				DEVELOPMENT_TEAM = 23U86K98CU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Marvel-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
